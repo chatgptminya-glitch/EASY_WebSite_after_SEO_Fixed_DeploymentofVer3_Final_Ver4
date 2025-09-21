@@ -1228,25 +1228,15 @@ ${firstName} ${lastName}`
             </CardHeader>
             <CardContent className="text-center space-y-4">
               {/* QR Code Placeholder */}
-              <div className="bg-white p-8 rounded-lg inline-block">
-                <div className="w-48 h-48 bg-gray-900 flex items-center justify-center text-white text-xs leading-tight">
-                  <div className="grid grid-cols-8 gap-1">
-                    {Array.from({length: 64}, (_, i) => (
-                      <div 
-                        key={i} 
-                        className={`w-2 h-2 ${Math.random() > 0.5 ? 'bg-black' : 'bg-white'}`}
-                      ></div>
-                    ))}
-                  </div>
-                </div>
-              </div>
+             
+            // 22 Sep 2025: 1:08AM {Code Removal QRShowModal with Random function Generation}
               
               <div className="space-y-2">
                 <p className="text-sm text-gray-600">
                   Scan with your phone camera or QR code reader
                 </p>
                 <p className="text-xs text-gray-500">
-                  Link: https://app.easyparking.smartvillage.com/download
+                  Link: https://eparknm-npxaih.manus.space/
                 </p>
               </div>
               
